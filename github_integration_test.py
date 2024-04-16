@@ -23,7 +23,6 @@ def mock_requests_get_success(monkeypatch):
 
     monkeypatch.setattr("requests.get", mock_get)
 
-
 def test_fetch_github_events_success(mock_requests_get_success):
     events = fetch_github_events("owner/repo1", "your_access_token")
 
