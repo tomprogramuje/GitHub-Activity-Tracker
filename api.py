@@ -1,2 +1,2 @@
-def home():
+def handle_home():
     return "Hello World!"
