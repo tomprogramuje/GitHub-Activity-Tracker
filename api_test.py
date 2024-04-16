@@ -1,7 +1,8 @@
 import pytest
-import requests
+from api import home
+
 
 def test_home():
     get = home()
 
-    assert "Hello World!"
+    assert get == "Hello World!"
