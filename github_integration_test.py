@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 import pytest
+import requests
+
 from github_integration import fetch_github_events
 
 
@@ -11,6 +13,10 @@ class MockResponse:
 
     def json(self):
         return self.json_data
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise requests.HTTPError(f"HTTP Error {self.status_code}")
 
 
 @pytest.fixture
@@ -41,6 +47,6 @@ def test_fetch_github_events_success(mock_requests_get_success):
 
 
 def test_fetch_github_events_failure(mock_requests_get_failure):
-    events = fetch_github_events("owner/repo1", "your_access_token")
-
-    assert events is None
+    with pytest.raises(requests.HTTPError):
+        events = fetch_github_events("owner/repo1", "your_access_token")
+        assert events is None
