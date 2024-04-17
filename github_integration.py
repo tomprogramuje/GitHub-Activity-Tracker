@@ -1,9 +1,6 @@
-import os
-
 import requests
 
-with open('token.txt', 'r') as t:
-    token = t.read()
+token = "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"
 
 
 def fetch_github_events(repo_name, access_token):
