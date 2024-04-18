@@ -7,7 +7,7 @@ app = FastAPI()
 
 
 @app.get("/")
-async def home():
+async def home() -> JSONResponse:
     data = api.handle_home()
     response = {"message": data}
-    return JSONResponse(content=response)
+    return JSONResponse(response)

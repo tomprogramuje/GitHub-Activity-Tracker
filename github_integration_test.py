@@ -11,7 +11,7 @@ class MockResponse:
     status_code: int
     text: str = ""
 
-    def json(self):
+    def json(self) -> dict | None:
         return self.json_data
 
     def raise_for_status(self):
@@ -21,7 +21,7 @@ class MockResponse:
 
 @pytest.fixture
 def mock_requests_get_success(monkeypatch):
-    def mock_get(*args, **kwargs):
+    def mock_get(*args, **kwargs) -> MockResponse:
         mock_response = MockResponse(
             {"id": 1, "type": "PullRequestEvent", "repo": {"name": "owner/repo1"}}, 200
         )
@@ -32,7 +32,7 @@ def mock_requests_get_success(monkeypatch):
 
 @pytest.fixture
 def mock_requests_get_failure(monkeypatch):
-    def mock_get(*args, **kwargs):
+    def mock_get(*args, **kwargs) -> MockResponse:
         mock_response = MockResponse(None, 404, "Not Found")
         return mock_response
 
