@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fcb56de-d38e-45b0-abe7-4fad6cdf4a4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tomprogramuje.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/github_integration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/github_integration_test.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -26,16 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for main_test.test_home.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in github_integration_test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.github_integration.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for main_test.test_home.executor": "Run",
+    "Python tests.Python tests in github_integration_test.py.executor": "Run",
+    "Python.api.executor": "Run",
+    "Python.github_integration.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.EditorConfig"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Python tests for main_test.test_home" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="GitHub Activity Tracker" />

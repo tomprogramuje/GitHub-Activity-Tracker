@@ -10,4 +10,10 @@ app = FastAPI()
 async def home() -> JSONResponse:
     data = api.handle_home()
     response = {"message": data}
-    return JSONResponse(response)
+    return JSONResponse(content=response)
+
+
+@app.get("/events/{owner_repo}")
+async def events() -> JSONResponse:
+    data = api.handle_events(owner_repo)
+    return JSONResponse(content=data)

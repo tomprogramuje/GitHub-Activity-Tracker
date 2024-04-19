@@ -1,6 +1,6 @@
 import requests
 
-token = "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"
+token = "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"
 
 
 def fetch_github_events(repo_name, access_token):
