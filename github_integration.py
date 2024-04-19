@@ -1,7 +1,5 @@
 import requests
 
-token = "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"
-
 
 def fetch_github_events(repo_name, access_token):
     url = f"https://api.github.com/repos/{repo_name}/events"

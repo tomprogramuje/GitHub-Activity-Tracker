@@ -1,4 +1,4 @@
-from api import handle_home, handle_events
+from api import handle_home, handle_get_events
 import pytest
 
 
@@ -26,13 +26,13 @@ def mock_fetch_github_events_success(token, monkeypatch):
         return mock_events
 
     monkeypatch.setattr(
-        "api.github_integration.fetch_github_events", mock_fetch_github_events
+        "github_integration.fetch_github_events", mock_fetch_github_events
     )
 
     return mock_events
 
 
-def test_handle_events_success(token, mock_fetch_github_events_success):
-    events = handle_events("owner/repo", token)
+def test_handle_get_events_success(token, mock_fetch_github_events_success):
+    events = handle_get_events("owner/repo", token)
 
     assert events == mock_fetch_github_events_success
