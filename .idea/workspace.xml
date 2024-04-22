@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fcb56de-d38e-45b0-abe7-4fad6cdf4a4b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statistics_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistics_test.py" afterDir="false" />
     </list>

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 import json
-from datetime import datetime
+import datetime
 
 
 @dataclass
@@ -21,11 +21,8 @@ def parse_json(json_file):
             id=item["id"],
             type=item["type"],
             repo_name=item["repo"]["name"],
-            created_at=datetime.fromisoformat(item["created_at"]),
+            created_at=datetime.datetime.fromisoformat(item["created_at"]),
         )
         events.append(event)
 
-    print(events)
-
-
-parse_json("sample.json")
+    return events
