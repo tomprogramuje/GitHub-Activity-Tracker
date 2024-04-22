@@ -1,7 +1,7 @@
 import datetime
 
 import sample_data
-from statistics import parse_json
+from statistics import parse_json, get_statistics
 
 
 def test_parse_json():
