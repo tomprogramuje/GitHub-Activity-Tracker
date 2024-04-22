@@ -1,4 +1,5 @@
 import sample_data
+from statistics import parse_json
 
 
 def test_parse_json():
