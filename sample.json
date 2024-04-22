@@ -1,0 +1,1932 @@
+[
+    {
+        "id": "36892764234",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17711023252,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "4a1947c369b53f75b99f62dbdf689d9b7ac80dd8",
+            "before": "2ce755f7813129ca1b3c68b7895b11013be5314b",
+            "commits": [
+                {
+                    "sha": "4a1947c369b53f75b99f62dbdf689d9b7ac80dd8",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] moved conn strs to env",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/4a1947c369b53f75b99f62dbdf689d9b7ac80dd8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-26T13:29:48Z"
+    },
+    {
+        "id": "36823570944",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17675942355,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2ce755f7813129ca1b3c68b7895b11013be5314b",
+            "before": "591b186e2cdc8b14295f2210fc3d19c1239683e2",
+            "commits": [
+                {
+                    "sha": "2ce755f7813129ca1b3c68b7895b11013be5314b",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] go mod tidy",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/2ce755f7813129ca1b3c68b7895b11013be5314b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-23T18:57:14Z"
+    },
+    {
+        "id": "36822468514",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "authentification",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-03-23T16:50:51Z"
+    },
+    {
+        "id": "36822461831",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17675215959,
+            "size": 24,
+            "distinct_size": 0,
+            "ref": "refs/heads/main",
+            "head": "591b186e2cdc8b14295f2210fc3d19c1239683e2",
+            "before": "cba2211db0d42ba08d67f9be13b0b144a1162a32",
+            "commits": [
+                {
+                    "sha": "cfd7b4843b4051c2d289f586f10f2bc8a2b2c1f2",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changed User struct and PlayerStore interface",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/cfd7b4843b4051c2d289f586f10f2bc8a2b2c1f2"
+                },
+                {
+                    "sha": "ded1026924a6c22d5182f96d0fb763abe49b6c8e",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added TestRegister test suite and 'returns 202 after registering a user test'",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/ded1026924a6c22d5182f96d0fb763abe49b6c8e"
+                },
+                {
+                    "sha": "46a7742d97aa87dcbfcb331a0ff9ae44cec84016",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'returns 202 after registering a user test' passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/46a7742d97aa87dcbfcb331a0ff9ae44cec84016"
+                },
+                {
+                    "sha": "c5348cc1a6eeaebecf0c6800a98c2964c1310ab8",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'returns userbase after registering a user' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/c5348cc1a6eeaebecf0c6800a98c2964c1310ab8"
+                },
+                {
+                    "sha": "96d2b4520003113ff20a1ab75fced67cf7c74ec7",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'password successfully verified' test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/96d2b4520003113ff20a1ab75fced67cf7c74ec7"
+                },
+                {
+                    "sha": "7ed4d4788b31008e696bf63f2141a2107b7ce9d4",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'password successfully verified' test passes, required multiple changes across all files",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/7ed4d4788b31008e696bf63f2141a2107b7ce9d4"
+                },
+                {
+                    "sha": "be90583ba52dc66f678db37728bc155381f9a940",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changed User struct and StubUserStore struct and altered most tests to work with it",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/be90583ba52dc66f678db37728bc155381f9a940"
+                },
+                {
+                    "sha": "7da4cad840e3d7722169c5009ba898fb61eaacc9",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] made testing.go contain all helper functions for tests",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/7da4cad840e3d7722169c5009ba898fb61eaacc9"
+                },
+                {
+                    "sha": "7c29bd072b3e4201da1a35ca47b2ee361f49abf8",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] made testing.go contain all helper functions for tests",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/7c29bd072b3e4201da1a35ca47b2ee361f49abf8"
+                },
+                {
+                    "sha": "ef32a98402cfeba13647c56d818696f2e7f5d120",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] added createdAt fields for both tables in db",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/ef32a98402cfeba13647c56d818696f2e7f5d120"
+                },
+                {
+                    "sha": "08ec03418f4045d6c9daf76fc222bc38dbed5474",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] remade squeak field into SqueakPost struct, altered rest of code as required",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/08ec03418f4045d6c9daf76fc222bc38dbed5474"
+                },
+                {
+                    "sha": "55944ee1a2bf90d5197dd2207fedfc0af37f5144",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'username and email already taken' test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/55944ee1a2bf90d5197dd2207fedfc0af37f5144"
+                },
+                {
+                    "sha": "bccdf5926c0051a40fce36bdca1d3fcabcb260f5",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'username and email already taken' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/bccdf5926c0051a40fce36bdca1d3fcabcb260f5"
+                },
+                {
+                    "sha": "f7d176d1e35aea72a1c2a013ec5db84623d32288",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'failed login' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/f7d176d1e35aea72a1c2a013ec5db84623d32288"
+                },
+                {
+                    "sha": "a5d6055f8d42ad476692303ffc69a562c5adbc77",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] NewPostgreSQLConnection returns an error now",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/a5d6055f8d42ad476692303ffc69a562c5adbc77"
+                },
+                {
+                    "sha": "c2727d86cf9068b1fae4756ff297e8337e20464f",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changes to registerUser func",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/c2727d86cf9068b1fae4756ff297e8337e20464f"
+                },
+                {
+                    "sha": "07fbcf46fad139711db9f89856c2004a05cec07d",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] updated logging test with cookies",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/07fbcf46fad139711db9f89856c2004a05cec07d"
+                },
+                {
+                    "sha": "a8d881f6f5525b7b0ef6d5015b298560ef56e2d0",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] updated logging test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/a8d881f6f5525b7b0ef6d5015b298560ef56e2d0"
+                },
+                {
+                    "sha": "5815ec3422d48a731d25f09f4c5c0376647f364c",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added auth tests to integration test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/5815ec3422d48a731d25f09f4c5c0376647f364c"
+                },
+                {
+                    "sha": "b32e818bc93f31ed9db3057c0e108851007c9830",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] auth tests in integration test pass",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/b32e818bc93f31ed9db3057c0e108851007c9830"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-23T16:50:03Z"
+    },
+    {
+        "id": "36822457421",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17675213045,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/authentification",
+            "head": "591b186e2cdc8b14295f2210fc3d19c1239683e2",
+            "before": "86ecbd6a81c2dfb8e5ff71cd27d4f587c67953b0",
+            "commits": [
+                {
+                    "sha": "591b186e2cdc8b14295f2210fc3d19c1239683e2",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] extracted newPostSqueakRequestWithJWT func",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/591b186e2cdc8b14295f2210fc3d19c1239683e2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-23T16:49:30Z"
+    },
+    {
+        "id": "36822454195",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17675211184,
+            "size": 12,
+            "distinct_size": 12,
+            "ref": "refs/heads/authentification",
+            "head": "86ecbd6a81c2dfb8e5ff71cd27d4f587c67953b0",
+            "before": "08ec03418f4045d6c9daf76fc222bc38dbed5474",
+            "commits": [
+                {
+                    "sha": "55944ee1a2bf90d5197dd2207fedfc0af37f5144",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'username and email already taken' test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/55944ee1a2bf90d5197dd2207fedfc0af37f5144"
+                },
+                {
+                    "sha": "bccdf5926c0051a40fce36bdca1d3fcabcb260f5",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'username and email already taken' test passes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/bccdf5926c0051a40fce36bdca1d3fcabcb260f5"
+                },
+                {
+                    "sha": "f7d176d1e35aea72a1c2a013ec5db84623d32288",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'failed login' test passes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/f7d176d1e35aea72a1c2a013ec5db84623d32288"
+                },
+                {
+                    "sha": "a5d6055f8d42ad476692303ffc69a562c5adbc77",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] NewPostgreSQLConnection returns an error now",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/a5d6055f8d42ad476692303ffc69a562c5adbc77"
+                },
+                {
+                    "sha": "c2727d86cf9068b1fae4756ff297e8337e20464f",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changes to registerUser func",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/c2727d86cf9068b1fae4756ff297e8337e20464f"
+                },
+                {
+                    "sha": "07fbcf46fad139711db9f89856c2004a05cec07d",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] updated logging test with cookies",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/07fbcf46fad139711db9f89856c2004a05cec07d"
+                },
+                {
+                    "sha": "a8d881f6f5525b7b0ef6d5015b298560ef56e2d0",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] updated logging test passes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/a8d881f6f5525b7b0ef6d5015b298560ef56e2d0"
+                },
+                {
+                    "sha": "5815ec3422d48a731d25f09f4c5c0376647f364c",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added auth tests to integration test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/5815ec3422d48a731d25f09f4c5c0376647f364c"
+                },
+                {
+                    "sha": "b32e818bc93f31ed9db3057c0e108851007c9830",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] auth tests in integration test pass",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/b32e818bc93f31ed9db3057c0e108851007c9830"
+                },
+                {
+                    "sha": "696925b8ac6ebeb7d95338e48fcc084eee222c1a",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] extracted parseJWTToken func",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/696925b8ac6ebeb7d95338e48fcc084eee222c1a"
+                },
+                {
+                    "sha": "30fbc6180efa9409ac06b36a19cb89e61bf3d095",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] extracted parseJWTToken func",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/30fbc6180efa9409ac06b36a19cb89e61bf3d095"
+                },
+                {
+                    "sha": "86ecbd6a81c2dfb8e5ff71cd27d4f587c67953b0",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] extracted newPostSqueakRequestWithJWT func",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/86ecbd6a81c2dfb8e5ff71cd27d4f587c67953b0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-23T16:49:09Z"
+    },
+    {
+        "id": "36576434103",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17555798297,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/authentification",
+            "head": "08ec03418f4045d6c9daf76fc222bc38dbed5474",
+            "before": "be90583ba52dc66f678db37728bc155381f9a940",
+            "commits": [
+                {
+                    "sha": "7da4cad840e3d7722169c5009ba898fb61eaacc9",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] made testing.go contain all helper functions for tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/7da4cad840e3d7722169c5009ba898fb61eaacc9"
+                },
+                {
+                    "sha": "7c29bd072b3e4201da1a35ca47b2ee361f49abf8",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] made testing.go contain all helper functions for tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/7c29bd072b3e4201da1a35ca47b2ee361f49abf8"
+                },
+                {
+                    "sha": "ef32a98402cfeba13647c56d818696f2e7f5d120",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] added createdAt fields for both tables in db",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/ef32a98402cfeba13647c56d818696f2e7f5d120"
+                },
+                {
+                    "sha": "08ec03418f4045d6c9daf76fc222bc38dbed5474",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] remade squeak field into SqueakPost struct, altered rest of code as required",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/08ec03418f4045d6c9daf76fc222bc38dbed5474"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-15T07:26:31Z"
+    },
+    {
+        "id": "36544996838",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17540378911,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/authentification",
+            "head": "be90583ba52dc66f678db37728bc155381f9a940",
+            "before": "c5348cc1a6eeaebecf0c6800a98c2964c1310ab8",
+            "commits": [
+                {
+                    "sha": "96d2b4520003113ff20a1ab75fced67cf7c74ec7",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'password successfully verified' test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/96d2b4520003113ff20a1ab75fced67cf7c74ec7"
+                },
+                {
+                    "sha": "7ed4d4788b31008e696bf63f2141a2107b7ce9d4",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'password successfully verified' test passes, required multiple changes across all files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/7ed4d4788b31008e696bf63f2141a2107b7ce9d4"
+                },
+                {
+                    "sha": "be90583ba52dc66f678db37728bc155381f9a940",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changed User struct and StubUserStore struct and altered most tests to work with it",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/be90583ba52dc66f678db37728bc155381f9a940"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-14T10:26:04Z"
+    },
+    {
+        "id": "36464519832",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "authentification",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Finished application should be a social network-like app providing ways for users to sign up with an account and interact with other users via posting messages or commenting other user's posts that would be preserved in a PostgreSQL database.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-03-12T08:44:15Z"
+    },
+    {
+        "id": "36292323656",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "refactor_db_code",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-03-06T10:04:07Z"
+    },
+    {
+        "id": "36292294405",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17410956353,
+            "size": 4,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "cba2211db0d42ba08d67f9be13b0b144a1162a32",
+            "before": "3d6415bec8e42548add874c3ee741ce93d63f474",
+            "commits": [
+                {
+                    "sha": "4ccd3713486983c9aefbc78f5bae9b0aaed5e393",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] added helper functions for db tests",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/4ccd3713486983c9aefbc78f5bae9b0aaed5e393"
+                },
+                {
+                    "sha": "e689c03e865da573975b5df61e69709c68b9cd66",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] added helper function for db tests",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/e689c03e865da573975b5df61e69709c68b9cd66"
+                },
+                {
+                    "sha": "32e9aa76832fea4fd5fcae9851db4367f5e9ab65",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changes to db-related error handling",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/32e9aa76832fea4fd5fcae9851db4367f5e9ab65"
+                },
+                {
+                    "sha": "cba2211db0d42ba08d67f9be13b0b144a1162a32",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] main.go now uses postgresql store",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/cba2211db0d42ba08d67f9be13b0b144a1162a32"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-06T10:03:16Z"
+    },
+    {
+        "id": "36260782180",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "refactor_db_code",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Finished application should be a social network-like app providing ways for users to sign up with an account and interact with other users via posting messages or commenting other user's posts that would be preserved in a PostgreSQL database.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-03-05T13:16:25Z"
+    },
+    {
+        "id": "36174601597",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "update_integration_test",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-03-01T20:48:36Z"
+    },
+    {
+        "id": "36174585090",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17350023283,
+            "size": 1,
+            "distinct_size": 0,
+            "ref": "refs/heads/main",
+            "head": "3d6415bec8e42548add874c3ee741ce93d63f474",
+            "before": "48af3f26d2eb2a921e90a8fc3bec3dfe8f075f7a",
+            "commits": [
+                {
+                    "sha": "3d6415bec8e42548add874c3ee741ce93d63f474",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] integration test passes with postgresql userstore",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/3d6415bec8e42548add874c3ee741ce93d63f474"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-01T20:47:53Z"
+    },
+    {
+        "id": "36174565642",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "update_integration_test",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Finished application should be a social network-like app providing ways for users to sign up with an account and interact with other users via posting messages or commenting other user's posts that would be preserved in a PostgreSQL database.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-03-01T20:46:56Z"
+    },
+    {
+        "id": "36164433901",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "database_implementation",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-03-01T14:29:58Z"
+    },
+    {
+        "id": "36164298422",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17344989808,
+            "size": 35,
+            "distinct_size": 35,
+            "ref": "refs/heads/main",
+            "head": "48af3f26d2eb2a921e90a8fc3bec3dfe8f075f7a",
+            "before": "677fe8f7c06de025e08e068f84851d7ca07f24d3",
+            "commits": [
+                {
+                    "sha": "099763d789372c4fbb5f7dae085611173504057a",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] minor changes server.go",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/099763d789372c4fbb5f7dae085611173504057a"
+                },
+                {
+                    "sha": "ea5010efc002ef2edd049c86da05690005db4a32",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] tests fail after changes to server.go",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/ea5010efc002ef2edd049c86da05690005db4a32"
+                },
+                {
+                    "sha": "4be284470c6a37b726fe53748df649972f52ac4f",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] server.go repaired",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/4be284470c6a37b726fe53748df649972f52ac4f"
+                },
+                {
+                    "sha": "03cc8e55c30a70c85bafaefe9a688abe13e5755e",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "Merge branch 'server_change'\n[REFACTOR] merging new server implementaiton",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/03cc8e55c30a70c85bafaefe9a688abe13e5755e"
+                },
+                {
+                    "sha": "446db57378db5dc8360fc080d058dc4273fbb797",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added db connection test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/446db57378db5dc8360fc080d058dc4273fbb797"
+                },
+                {
+                    "sha": "606b0571a68dc85412d6dcf4c607d4b13b0d0ad4",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] db connection test passes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/606b0571a68dc85412d6dcf4c607d4b13b0d0ad4"
+                },
+                {
+                    "sha": "65f04789cf8bab6955da4562cb610a59c11db38c",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] test db setup ready",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/65f04789cf8bab6955da4562cb610a59c11db38c"
+                },
+                {
+                    "sha": "3126fa835df81a2c823f29b408c9a40a49385605",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] test db setup ready",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/3126fa835df81a2c823f29b408c9a40a49385605"
+                },
+                {
+                    "sha": "bb1050d02fbbdb0de2b879206914f6bc9634951e",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] test db setup ready",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/bb1050d02fbbdb0de2b879206914f6bc9634951e"
+                },
+                {
+                    "sha": "7a49164afc75343abd2a3b0c5351940988d01dac",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] CreateUser test is passing",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/7a49164afc75343abd2a3b0c5351940988d01dac"
+                },
+                {
+                    "sha": "dd5aaa26fd74770dc09840310b5aaedb9b1b3790",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] added func to clear a test database",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/dd5aaa26fd74770dc09840310b5aaedb9b1b3790"
+                },
+                {
+                    "sha": "7d7ac03f9a3a457ff37e703908b8b39fbef7e533",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] added func to init a test database",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/7d7ac03f9a3a457ff37e703908b8b39fbef7e533"
+                },
+                {
+                    "sha": "d8a35f667029a8bbf458eca3d6375d060971fc8f",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added test for getting user by id",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/d8a35f667029a8bbf458eca3d6375d060971fc8f"
+                },
+                {
+                    "sha": "13524fe7d224f1762e72af9afebd971666cef7a3",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] test for getting user by id passes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/13524fe7d224f1762e72af9afebd971666cef7a3"
+                },
+                {
+                    "sha": "16b217a7262675e1bc8fd9bb1c5ac6105090872e",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changed the way TestDB handles errors",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/16b217a7262675e1bc8fd9bb1c5ac6105090872e"
+                },
+                {
+                    "sha": "ac0154657b12a1ec8f9ca7708a384ad6e5f7d060",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'returns not found for nonexisting user' test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/ac0154657b12a1ec8f9ca7708a384ad6e5f7d060"
+                },
+                {
+                    "sha": "f1d9f0cf4e254c59b3f70f78cb4a9c9521a10b40",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] 'returns not found for nonexisting user' test passes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/f1d9f0cf4e254c59b3f70f78cb4a9c9521a10b40"
+                },
+                {
+                    "sha": "c07e9c469531ce7e5efeb4851abc5f16dc42c4e4",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'returns user id' test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/c07e9c469531ce7e5efeb4851abc5f16dc42c4e4"
+                },
+                {
+                    "sha": "3eb03da771f8221b9440a255f49e9a711093f5cf",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'returns user id' test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/3eb03da771f8221b9440a255f49e9a711093f5cf"
+                },
+                {
+                    "sha": "b42978375b34870a5da3c5ffabd421ca5c7a38bc",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'returns user id' test passes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/b42978375b34870a5da3c5ffabd421ca5c7a38bc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-01T14:25:57Z"
+    },
+    {
+        "id": "36164294504",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17344985613,
+            "size": 20,
+            "distinct_size": 0,
+            "ref": "refs/heads/database_implementation",
+            "head": "48af3f26d2eb2a921e90a8fc3bec3dfe8f075f7a",
+            "before": "16b217a7262675e1bc8fd9bb1c5ac6105090872e",
+            "commits": [
+                {
+                    "sha": "ac0154657b12a1ec8f9ca7708a384ad6e5f7d060",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'returns not found for nonexisting user' test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/ac0154657b12a1ec8f9ca7708a384ad6e5f7d060"
+                },
+                {
+                    "sha": "f1d9f0cf4e254c59b3f70f78cb4a9c9521a10b40",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] 'returns not found for nonexisting user' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/f1d9f0cf4e254c59b3f70f78cb4a9c9521a10b40"
+                },
+                {
+                    "sha": "c07e9c469531ce7e5efeb4851abc5f16dc42c4e4",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'returns user id' test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/c07e9c469531ce7e5efeb4851abc5f16dc42c4e4"
+                },
+                {
+                    "sha": "3eb03da771f8221b9440a255f49e9a711093f5cf",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'returns user id' test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/3eb03da771f8221b9440a255f49e9a711093f5cf"
+                },
+                {
+                    "sha": "b42978375b34870a5da3c5ffabd421ca5c7a38bc",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'returns user id' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/b42978375b34870a5da3c5ffabd421ca5c7a38bc"
+                },
+                {
+                    "sha": "225c0dc4aa679f787457e7e6821f46907845c846",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'stores new squeak' test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/225c0dc4aa679f787457e7e6821f46907845c846"
+                },
+                {
+                    "sha": "4cca3e63758cdb595feeeab058b508095d5730b0",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'stores new squeak' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/4cca3e63758cdb595feeeab058b508095d5730b0"
+                },
+                {
+                    "sha": "9a1cebad61c49e9b529c38380d72d62a9440743a",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'get user squeak' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/9a1cebad61c49e9b529c38380d72d62a9440743a"
+                },
+                {
+                    "sha": "2feb2d18ce1ba462228c366a3f959d8c2af943fa",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changed the way errors are handled in postgresql_user_store",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/2feb2d18ce1ba462228c366a3f959d8c2af943fa"
+                },
+                {
+                    "sha": "be1ee0aaab59bd62df56735c6ad5178157f3f0be",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'fetching squeaks for user with no stored squeaks'",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/be1ee0aaab59bd62df56735c6ad5178157f3f0be"
+                },
+                {
+                    "sha": "78911adc0a03c161f6821e8c983fcf9952f1661c",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN]'fetching squeaks for user with no stored squeaks' passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/78911adc0a03c161f6821e8c983fcf9952f1661c"
+                },
+                {
+                    "sha": "63bea44821e6d3ca42be12dd52c854b936cbbdd7",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] minor function renaming",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/63bea44821e6d3ca42be12dd52c854b936cbbdd7"
+                },
+                {
+                    "sha": "78c53864ce02cdd18277f07641cd8d473e41afba",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'returns the userbase' test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/78c53864ce02cdd18277f07641cd8d473e41afba"
+                },
+                {
+                    "sha": "82c524c345cfca96cc3e89e68c2b28695512e2ed",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'returns the userbase' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/82c524c345cfca96cc3e89e68c2b28695512e2ed"
+                },
+                {
+                    "sha": "d64d0a0b5383a16d3a5fd62d1a634ff8095257f9",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] made constructor for PostreSQLUserStore",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/d64d0a0b5383a16d3a5fd62d1a634ff8095257f9"
+                },
+                {
+                    "sha": "e779484d245ea3b640c7e5aa17199f8bd90d727d",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'return userbase' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/e779484d245ea3b640c7e5aa17199f8bd90d727d"
+                },
+                {
+                    "sha": "806d04ded9b5f2a828d8d60fa32da3e2a8ce2d30",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] changed 'return userbase' test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/806d04ded9b5f2a828d8d60fa32da3e2a8ce2d30"
+                },
+                {
+                    "sha": "8d8b04aaa8f2258e1430b19bfe1742157c9aab32",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'return userbase' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/8d8b04aaa8f2258e1430b19bfe1742157c9aab32"
+                },
+                {
+                    "sha": "90662c58ef27af149d31d5d5a9821eab66024452",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'return userbase' test passes",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/90662c58ef27af149d31d5d5a9821eab66024452"
+                },
+                {
+                    "sha": "48af3f26d2eb2a921e90a8fc3bec3dfe8f075f7a",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changed the way errors are handled",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/48af3f26d2eb2a921e90a8fc3bec3dfe8f075f7a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-03-01T14:25:50Z"
+    },
+    {
+        "id": "36066114789",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "implement_post_squeaks",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-02-27T21:32:59Z"
+    },
+    {
+        "id": "36066087646",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "database_implementation",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Finished application should be a social network-like app providing ways for users to sign up with an account and interact with other users via posting messages or commenting other user's posts that would be preserved in a PostgreSQL database.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-02-27T21:31:51Z"
+    },
+    {
+        "id": "35813466649",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17164822335,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "677fe8f7c06de025e08e068f84851d7ca07f24d3",
+            "before": "fdae027a6f01676b787951c3bf477e05abbaa365",
+            "commits": [
+                {
+                    "sha": "677fe8f7c06de025e08e068f84851d7ca07f24d3",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] refactored integration test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/677fe8f7c06de025e08e068f84851d7ca07f24d3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-02-19T22:45:43Z"
+    },
+    {
+        "id": "35703145105",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17104975238,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "fdae027a6f01676b787951c3bf477e05abbaa365",
+            "before": "4e85c33425efab86aebe8d09a6508cd208439d31",
+            "commits": [
+                {
+                    "sha": "fdae027a6f01676b787951c3bf477e05abbaa365",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "updated README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/fdae027a6f01676b787951c3bf477e05abbaa365"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-02-15T12:33:19Z"
+    },
+    {
+        "id": "35700357541",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17103593677,
+            "size": 7,
+            "distinct_size": 0,
+            "ref": "refs/heads/main",
+            "head": "4e85c33425efab86aebe8d09a6508cd208439d31",
+            "before": "962e466cd53ee96a644ca533aff83097e8a4b6ee",
+            "commits": [
+                {
+                    "sha": "ea37b9886a8a25684ac8e4be9d1c734502134dc8",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] TestGETSqueaks remodeled",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/ea37b9886a8a25684ac8e4be9d1c734502134dc8"
+                },
+                {
+                    "sha": "2bf6697f9753589e09a054ef90849359de2c5960",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] added comment to server_test.go",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/2bf6697f9753589e09a054ef90849359de2c5960"
+                },
+                {
+                    "sha": "52e2c7586ec0f15db55b698da596288c560d08b7",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] minor changes in tests and server.go",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/52e2c7586ec0f15db55b698da596288c560d08b7"
+                },
+                {
+                    "sha": "36accd607791c917995b033f55cfbc5de6b7573e",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] changed integration test, needs implementation of POSTing squeaks",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/36accd607791c917995b033f55cfbc5de6b7573e"
+                },
+                {
+                    "sha": "1f42bfdd6482f67afe992e1c945de4801b72f1c7",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[RED] added 'post to users' test",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/1f42bfdd6482f67afe992e1c945de4801b72f1c7"
+                },
+                {
+                    "sha": "060a5593247d31fa6712e854f546db2100e30588",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] 'it saves squeak on POST' test pases",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/060a5593247d31fa6712e854f546db2100e30588"
+                },
+                {
+                    "sha": "4e85c33425efab86aebe8d09a6508cd208439d31",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] altered all tests",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/4e85c33425efab86aebe8d09a6508cd208439d31"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-02-15T10:57:01Z"
+    },
+    {
+        "id": "35700331141",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17103580863,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/implement_post_squeaks",
+            "head": "4e85c33425efab86aebe8d09a6508cd208439d31",
+            "before": "060a5593247d31fa6712e854f546db2100e30588",
+            "commits": [
+                {
+                    "sha": "4e85c33425efab86aebe8d09a6508cd208439d31",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] altered all tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/4e85c33425efab86aebe8d09a6508cd208439d31"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-02-15T10:56:08Z"
+    },
+    {
+        "id": "35668078311",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "ref": "implement_post_squeaks",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Finished application should be a social network-like app providing ways for users to sign up with an account and interact with other users via posting messages or commenting other user's posts that would be preserved in a PostgreSQL database.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-02-14T11:51:56Z"
+    },
+    {
+        "id": "35584320893",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 17043588860,
+            "size": 7,
+            "distinct_size": 7,
+            "ref": "refs/heads/main",
+            "head": "962e466cd53ee96a644ca533aff83097e8a4b6ee",
+            "before": "d8e5dc5b5455acf87fd4154285cb49140cca342c",
+            "commits": [
+                {
+                    "sha": "948d148cec0e3f7b98189db8e6f95bf6ad126683",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] server.go refactored",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/948d148cec0e3f7b98189db8e6f95bf6ad126683"
+                },
+                {
+                    "sha": "2d92f78b853caf7d9ef6d70400fdf6a5535843b9",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] test terminology changed",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/2d92f78b853caf7d9ef6d70400fdf6a5535843b9"
+                },
+                {
+                    "sha": "acd53e394ea733c709942e052a58a8a43944d792",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] fixed typos",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/acd53e394ea733c709942e052a58a8a43944d792"
+                },
+                {
+                    "sha": "c8c8509e4820a2c7564afb36e9cfe7abcf6a1436",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] added TESTPOSTSqueaks and implemented the save Squeak method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/c8c8509e4820a2c7564afb36e9cfe7abcf6a1436"
+                },
+                {
+                    "sha": "31d28928167753d068e585262974873f590feab8",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[GREEN] added integration test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/31d28928167753d068e585262974873f590feab8"
+                },
+                {
+                    "sha": "6d8d869ff220cc5af0751cf18eda9ce411a80bf8",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "[REFACTOR] updated all tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/6d8d869ff220cc5af0751cf18eda9ce411a80bf8"
+                },
+                {
+                    "sha": "962e466cd53ee96a644ca533aff83097e8a4b6ee",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "tomprogramuje"
+                    },
+                    "message": "Merge branch 'main' of https://github.com/tomprogramuje/socialnet",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/962e466cd53ee96a644ca533aff83097e8a4b6ee"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-02-11T19:30:30Z"
+    },
+    {
+        "id": "35359807539",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 16920520032,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "d8e5dc5b5455acf87fd4154285cb49140cca342c",
+            "before": "b6594bd5ccb9969abdec415c9a76efb74924540a",
+            "commits": [
+                {
+                    "sha": "d8e5dc5b5455acf87fd4154285cb49140cca342c",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "Tomáš Severa"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/d8e5dc5b5455acf87fd4154285cb49140cca342c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-02-02T19:35:05Z"
+    },
+    {
+        "id": "35357383269",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 16919264154,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b6594bd5ccb9969abdec415c9a76efb74924540a",
+            "before": "7a3b86611f337d04d08f23e2a5bdd44ac4eacc52",
+            "commits": [
+                {
+                    "sha": "b6594bd5ccb9969abdec415c9a76efb74924540a",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "Tomáš Severa"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/b6594bd5ccb9969abdec415c9a76efb74924540a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-02-02T17:54:29Z"
+    },
+    {
+        "id": "35357361634",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 16919253108,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "7a3b86611f337d04d08f23e2a5bdd44ac4eacc52",
+            "before": "a65ce671f38ccb4edb5a43a86327507d27ae4c12",
+            "commits": [
+                {
+                    "sha": "7a3b86611f337d04d08f23e2a5bdd44ac4eacc52",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "Tomáš Severa"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/7a3b86611f337d04d08f23e2a5bdd44ac4eacc52"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-02-02T17:53:34Z"
+    },
+    {
+        "id": "35357351719",
+        "type": "PushEvent",
+        "actor": {
+            "id": 127385077,
+            "login": "tomprogramuje",
+            "display_login": "tomprogramuje",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tomprogramuje",
+            "avatar_url": "https://avatars.githubusercontent.com/u/127385077?"
+        },
+        "repo": {
+            "id": 751558807,
+            "name": "tomprogramuje/socialnet",
+            "url": "https://api.github.com/repos/tomprogramuje/socialnet"
+        },
+        "payload": {
+            "repository_id": 751558807,
+            "push_id": 16919248155,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a65ce671f38ccb4edb5a43a86327507d27ae4c12",
+            "before": "f317a39321430a69fc148c0f62678cbaa308085f",
+            "commits": [
+                {
+                    "sha": "a65ce671f38ccb4edb5a43a86327507d27ae4c12",
+                    "author": {
+                        "email": "tom.severa@outlook.cz",
+                        "name": "Tomáš Severa"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tomprogramuje/socialnet/commits/a65ce671f38ccb4edb5a43a86327507d27ae4c12"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-02-02T17:53:09Z"
+    }
+]

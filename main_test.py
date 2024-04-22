@@ -23,26 +23,26 @@ def token() -> str:
 
 
 @pytest.fixture
-def mock_get_events_success(mock_repo_name, token, monkeypatch):
+def mock_handle_get_events_success(mock_repo_name, token, monkeypatch):
     mock_events = [
         {"id": 1, "type": "PushEvent", "repo": {"name": "owner/repo"}},
         {"id": 2, "type": "PullRequestEvent", "repo": {"name": "owner/repo"}},
     ]
 
-    def mock_get_events(repo_name, access_token):
+    def mock_handle_get_events(repo_name, access_token):
         assert repo_name == mock_repo_name
         assert access_token == token
 
         return mock_events
 
-    monkeypatch.setattr("api.handle_get_events", mock_get_events)
+    monkeypatch.setattr("api.handle_get_events", mock_handle_get_events)
 
     return mock_events
 
 
-def test_get_events_success(mock_repo_name, token, mock_get_events_success):
+def test_get_events_success(mock_repo_name, token, mock_handle_get_events_success):
     params = {"repo_name": mock_repo_name, "access_token": token}
     response = client.get(f"/events", params=params)
 
     assert response.status_code == 200
-    assert response.json() == mock_get_events_success
+    assert response.json() == mock_handle_get_events_success

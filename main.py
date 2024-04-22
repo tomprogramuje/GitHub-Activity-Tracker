@@ -16,6 +16,8 @@ async def home() -> JSONResponse:
 
 
 @app.get("/events")
-async def get_events(repo_name: str, access_token: str | None = default_token) -> JSONResponse:
+async def get_events(
+    repo_name: str, access_token: str | None = default_token
+) -> JSONResponse:
     data = api.handle_get_events(repo_name, access_token)
     return JSONResponse(content=data)
