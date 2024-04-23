@@ -31,7 +31,9 @@ def parse_json(json_file):
 def get_statistics(json_file):
     events = parse_json(json_file)
 
-    delete_events = [event.created_at for event in events if event.type == "DeleteEvent"]
+    delete_events = [event.created_at for event in events if event.type == "DeleteEvent"] # and time.now() - created_at < 7 days
+    # if len(delete_events) > 500:
+    #   delete_events = delete_events[:500]
     delete_events.reverse()
 
     time_diffs = [delete_events[i + 1] - delete_events[i] for i in range(len(delete_events) - 1)]
